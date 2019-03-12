@@ -53,7 +53,7 @@ shutter1 = Shutter(
     return_channel='Dev1/port0/line1',
     task_name='shutter1',
 )
-shutter1.open() #will try to repeatedly try to open using default valuse
+shutter1.open() #will try to repeatedly try to open using default values
 time.sleep(1)
 shutter1.close()
 shutter1.try_open() #will probably fail because capacitors will not be charged
