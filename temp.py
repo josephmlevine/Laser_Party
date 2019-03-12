@@ -2,9 +2,11 @@
 """
 Spyder Editor
 
+Do not trust this script to work as it is now.
 This is a temporary script file. It is not complete.
+
 Timing needs to be tuned, and the structure of the file and the api will most
-likely change. -Lennard
+likely change.
 """
 
 import nidaqmx
